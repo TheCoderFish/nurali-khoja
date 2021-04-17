@@ -19,4 +19,18 @@ body {
 
 body {
   background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 2em;
+  border: 2px solid var(--hero-border-color);
+}
+.hero {
 }
