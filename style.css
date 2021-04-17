@@ -41,6 +41,14 @@ body {
   flex-shrink: 0;
   flex-basis: 70%;
   outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 6em;
+}
+
+.hero-name * {
+  line-height: 40px;
 }
 .hero-image {
   flex-shrink: 0;
