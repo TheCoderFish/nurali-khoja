@@ -77,3 +77,16 @@ body {
   margin: 1em;
   padding: 1em;
 }
+
+.what-i-do-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+.i-do-card {
+  border: 1px solid gray;
+  min-width: 400px;
+  min-height: 550px;
+}
