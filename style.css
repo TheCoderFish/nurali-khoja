@@ -59,3 +59,11 @@ body {
   max-width: 100%;
   max-height: 100%;
 }
+
+/* What I do */
+.what-i-do {
+  min-height: 600px;
+  height: calc(100vh);
+  /* outline: 1px solid gray; */
+  background-color: hsl(00, 40%, 97%);
+}
