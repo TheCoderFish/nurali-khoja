@@ -74,7 +74,7 @@ body {
 
 .section-heading {
   font-size: 3em;
-  margin: 1em;
+  margin: 1em 1em 0 1em;
   padding: 1em;
 }
 
@@ -86,7 +86,20 @@ body {
   width: 100%;
 }
 .i-do-card {
-  border: 1px solid gray;
   min-width: 400px;
+  width: 500px;
   min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4em;
+  text-align: center;
+}
+.i-do-card h2 {
+  margin: 1em;
+}
+.i-do-icon img {
+  width: 175px;
+  height: 200px;
 }
