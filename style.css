@@ -18,6 +18,7 @@ body {
 }
 
 .hero {
+  text-align: center;
   height: 100vh;
   color: white;
   display: flex;
@@ -32,7 +33,7 @@ body {
 }
 
 .hero h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-transform: uppercase;
 }
 
@@ -147,4 +148,33 @@ body {
 .i-do-icon img {
   width: 175px;
   height: 200px;
+}
+
+.hide {
+  display: none;
+}
+
+/*
+Congratulation
+First Media QUery
+*/
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 4em;
+    margin: 0.2em;
+  }
+  .hero h2 {
+    font-size: 1.5em;
+  }
+  .hero {
+    padding: 0.2em;
+  }
+}
+@media (min-width: 1024px) {
+  .hero h1 {
+    font-size: 8em;
+  }
+  .hero h2 {
+    font-size: 2.5em;
+  }
 }
