@@ -1,0 +1,65 @@
+/* Minimalistic Portfolio Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #fafbfc;
+  color: #222;
+  line-height: 1.6;
+}
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+section {
+  margin-bottom: 2.5rem;
+}
+.hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0.2rem 0 0.5rem 0;
+}
+.tagline {
+  font-size: 1rem;
+  color: #888;
+}
+.highlight {
+  border-left: 4px solid #0072b1;
+  background: #f3f6fa;
+  padding-left: 1rem;
+  border-radius: 4px;
+}
+.services ul, .projects ul {
+  padding-left: 1.2rem;
+}
+.services li, .projects li {
+  margin-bottom: 0.5rem;
+}
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+.social-links a {
+  color: #0072b1;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.social-links a:hover {
+  color: #005580;
+}
+@media (max-width: 600px) {
+  main {
+    padding: 1.2rem 0.5rem;
+  }
+  .social-links {
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: flex-start;
+  }
+}
